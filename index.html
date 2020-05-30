@@ -1,0 +1,51 @@
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet"/>
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css" rel="stylesheet"/>
+        <link href="style.css" rel="stylesheet"/>
+    </head>
+    <body>
+        <div id="header">
+            <input type='button' id='testDeal' class='btn' value='test deal'/>
+            <input type='button' id="deal" class="btn" value="Deal" />
+            <input type='button' id="autoplay" class="btn" value="Autoplay" />
+            <input type='button' id="speed" class="btn" value="Fast" />
+            <button id="sound" class="btn">
+              <i id="soundIcon"class="glyphicon glyphicon-volume-up"></i>
+            </button>
+            <span id="totalCards"></span>
+          </div>
+          
+          <div id="msg">WAR</div>
+          <div id="slider"></div>
+          
+          <div id="gameArea">
+            <div class="portion">
+              <div id="runOne" class="btn fakebtn">Player One</div>
+              <span id="one"></span>
+            </div>
+          
+            <div class="portion">
+              <div id="runTwo" class="btn fakebtn">Player Two</div>
+              <span id="two"></span>
+            </div>
+           
+            <div id="battleOne" class="portion">
+            </div>
+          
+            <div id="battleTwo" class="portion">
+            </div>
+          
+            <div id="oneHand" class="portion hand">
+            </div>
+          
+            <div id="twoHand" class="portion hand">
+            </div>
+          </div>
+          <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+          <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.0/jquery-ui.min.js"></script>
+          <script src="script.js"></script>
+    </body>
+</html>
